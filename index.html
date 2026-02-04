@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="logo.jpeg" type="image/webp">
+    <title>MY CAR STORE</title>
 </head>
+
 <body>
-    <button>CLICK ME</button>
+    <div class="logo">
+        <img src="download.webp" alt="car logo" height="100" width="150">
+        <p><span style="font-family: comic sans ms;">ZR</span> CARZONE</p>
+        <div class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#product">PRODUCT</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </div>
+    <div id="home" class="Home">
+        <h1>HOME</h1>
+    </div>
+    <div class="bg-video">
+        <video src="car_video.mp4" autoplay muted loop></video>
+
+    </div>
+    <div class="para">
+        Cars play a vital role in modern life by providing convenience, mobility, and independence. 
+        They allow people to travel comfortably over long and short distances, saving time and making daily tasks easier. 
+        With advancements in technology, today’s cars are not only faster and more efficient but also safer and more environmentally friendly. 
+        From family vehicles to luxury and sports cars, the automotive industry offers a wide range of options to suit different needs and lifestyles,
+         making cars an essential part of everyday living.
+    </div>
+    <div id="product" class="product">
+        <h1>PRODUCT</h1>
+    </div>
+
+
+    <div id="container">
+        <div class="img-1">
+            <img src="ferrari.webp" width="400px" height="300px" alt="Ferrari car">
+            <figcaption>Ferrari<br>Price: $3.7 million<br><button>Add to cart</button></figcaption>
+        </div>
+        <div class="img-2">
+            <img src="Nissan.webp" width="400px" height="300px" alt="Nissan car">
+            <figcaption>Nissan<br>Price: $39,900<br><button>Add to cart</button></figcaption>
+        </div>
+        <div class="img-3">
+            <img src="rolls royce.webp" width="300px" height="300px" alt="Rolls Royce car">
+            <figcaption>Rolls Royce<br>Price: $563,800<br><button>Add to cart</button></figcaption>
+        </div>
+        <div class="img-4">
+            <img src="Range rover.webp" width="550px" height="300px" alt="Range Rover car">
+            <figcaption>Range Rover<br>Price: $113,300<br><button>Add to cart</button></figcaption>
+        </div>
+        <div class="img-5">
+            <img src="Land Cruiser 300.webp" width="500px" height="300px" alt="Land Cruiser 300 car">
+            <figcaption>Land Cruiser 300<br>Price: $62,445<br><button>Add to cart</button></figcaption>
+        </div>
+        <div class="img-6">
+            <img src="dodge.webp" width="450px" height="300px" alt="Dodge car">
+            <figcaption>Dodge<br>Price: $54,995<br><button>Add to cart</button></figcaption>
+
+        </div>
+        <div class="img-7">
+            <img src="bmw.webp" width="400px" height="300px" alt="BMW car">
+            <figcaption>BMW<br>Price: $68,225<br><button>Add to cart</button></figcaption>
+        </div>
+        <div class="img-8">
+            <img src="mercede.jpg" width="250px" height="300px" alt="Mercedes car">
+            <figcaption>Mercedes<br>Price: $189,800<br><button>Add to cart</button></figcaption>
+        </div>
+        <div class="img-9">
+            <img src="tesla.webp" width="450px" height="300px" alt="Tesla car">
+            <figcaption>Tesla<br>Price: $117,235<br><button>Add to cart</button></figcaption>
+        </div>
+        <div class="img-10">
+            <img src="audi.webp" width="450px" height="300px" alt="Audi car">
+            <figcaption>Audi<br>Price: $64,100<br><button>Add to cart</button></figcaption>
+
+        </div>
+    </div>
+
+    <div id="portfolio" class="portfolio">
+        <h1>PORTFOLIO</h1>
+        <p style="text-align: justify;">i am Zaigham Riaz<span style="color:red"> ZR</span>, a motivated student and aspiring programmer with a strong interest in building practical, efficient, and user-focused software solutions.
+             I enjoy learning new technologies, solving problems through code, and continuously improving my technical skills. 
+            With a solid foundation in programming and a passion for innovation, I aim to grow as a developer while contributing
+             to meaningful projects that create real-world impact.<br><br>
+            If you want to see my Portfolio you should go to my GitHub Account. Where my all codes are published. THANK U.</p>
+        <a href=" https://github.com/zaighamriaz0001-beep/My-first-portfolio">GitHub Account</a>
+    </div>
+    <div id="contact" class="contact">
+        <h1>CONTACT</h1>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required ><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="20" required></textarea><br><br>
+            <button id="btnSend">SEND</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p><b>&copy; 2026 ZR CARZONE. All rights reserved.</b></p>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
+
+
+
